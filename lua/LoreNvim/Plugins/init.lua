@@ -23,5 +23,7 @@ return {
 		dependencies = {
 			'nvim-lua/plenary.nvim'
 		}
-	}
+	},
+    "EdenEast/nightfox.nvim", -- Nightfox colorschemes
+    {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}, -- Treesitter
 }
