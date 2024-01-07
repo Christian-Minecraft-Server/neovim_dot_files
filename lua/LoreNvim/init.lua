@@ -1,2 +1,2 @@
-vim.g.mapleader = '<space>'
+vim.g.mapleader = ' '
 require('LoreNvim/lazy')

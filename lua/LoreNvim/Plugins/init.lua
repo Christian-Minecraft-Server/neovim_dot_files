@@ -7,8 +7,8 @@ return {
 		}
 	},
 	{ -- Autocompletion & Snippets
-	'hrsh7th/nvim-cmp',
-	dependencies = {
+		'hrsh7th/nvim-cmp',
+		dependencies = {
 			'hrsh7th/cmp-nvim-lsp',
 			'hrsh7th/cmp-buffer',
 			'hrsh7th/cmp-path',
@@ -18,4 +18,10 @@ return {
 			'saadparwaiz1/cmp_luasnip'
 		}
 	},
+	{ -- Telescope
+		'nvim-telescope/telescope.nvim',
+		dependencies = {
+			'nvim-lua/plenary.nvim'
+		}
+	}
 }
