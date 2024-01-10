@@ -4,6 +4,7 @@ golangci.args = { "--enable-all" }
 lint.linters_by_ft = {
 	go = { "golangcilint" },
 	lua = { "luacheck" },
+	python = { "pylint" },
 }
 
 -- Lints on enter buffer, write to buffer, leave insert

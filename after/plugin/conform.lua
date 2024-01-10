@@ -9,6 +9,7 @@ conform.setup({
 	formatters_by_ft = {
 		go = { "goimports" }, -- goimports is gofmt that also checks for unused imports
 		lua = { "stylua" },
+		python = { "pyink" },
 	},
 	format_on_save = format_opts,
 })
