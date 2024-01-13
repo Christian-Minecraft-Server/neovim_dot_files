@@ -5,7 +5,7 @@ lint.linters_by_ft = {
 	go = { "golangcilint" },
 	lua = { "luacheck" },
 	python = { "pylint" },
-	html = { "htmlhint" },
+	--html = { "htmlhint" },
 }
 
 -- Lints on enter buffer, write to buffer, leave insert
