@@ -10,6 +10,9 @@ conform.setup({
 		go = { "goimports" }, -- goimports is gofmt that also checks for unused imports
 		lua = { "stylua" },
 		python = { "pyink" },
+		html = { "prettier" },
+		css = { "prettier" },
+		js = { "prettier" },
 	},
 	format_on_save = format_opts,
 })
